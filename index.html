@@ -13,15 +13,13 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li
-            class="header__links-list-item header__links-list-item_no-bullit header__link_active"
-          >
+          <li class="header__links-list-item header__links-list-item_active">
             <a class="header__link">главная</a>
           </li>
-          <li class="header__links-list-item header__link_active">
+          <li class="header__links-list-item">
             <a class="header__link" href="#lots">посмотреть лоты</a>
           </li>
-          <li class="header__links-list-item header__link_active">
+          <li class="header__links-list-item">
             <a class="header__link" href="#about">об аукционе</a>
           </li>
         </ul>
@@ -35,14 +33,12 @@
       </a>
       <div class="header__address">
         <address class="address">
-          <a class="header__address_tel" href="tel:+99995555555">
-            +9 999 555 5555
-          </a>
+          <a class="address__link" href="tel:+99995555555"> +9 999 555 5555 </a>
           <br />
-          <a class="header__address_mail" href="mailto:info@sobaka.ge">
+          <a class="address__link" href="mailto:info@sobaka.ge">
             info@sobaka.ge
           </a>
-          <p class="header__address_location">
+          <p class="address__link-location">
             наб. Принсенграхт 263-265,<br />
             Амстердам
           </p>
@@ -53,12 +49,12 @@
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="cover__title_text">он</span>
-          <span class="cover__title_text letter-spacing-extended">о</span>
-          <span class="cover__title_text aligned-text_center new-line-text"
+          <span class="cover__title-text">он</span>
+          <span class="cover__title-text letter-spacing-extended">о</span>
+          <span class="cover__title-text aligned-text-center new-line-text"
             >те<span class="letter-spacing-extended">бе</span>
           </span>
-          <span class="cover__title_text aligned-text_right new-line-text"
+          <span class="cover__title-text aligned-text-right new-line-text"
             ><span class="letter-spacing-extended">н</span>ад<span
               class="no-letter-spacing"
               >о</span
@@ -66,10 +62,10 @@
           >
         </h1>
         <div class="cover__description">
-          <h2 class="cover__description-text">
+          <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
-          </h2>
-          <button class="bet-button">Сделать ставку</button>
+          </p>
+          <button type="button" class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots" id="lots">
@@ -131,7 +127,7 @@
       </section>
       <section class="about" id="about">
         <div class="about__column">
-          <div class="about__logo_container">
+          <div class="about__logo-container">
             <div class="about__logo">
               <img
                 class="about__logo-image"
@@ -143,14 +139,14 @@
           <div class="about__content">
             <h2 class="about__title">Об аукционе</h2>
             <div class="about__text">
-              <p class="about__text_content">
+              <p class="about__text-content">
                 Здесь вы не встретите очередное пафосное собрание невероятно
                 дорогого антиквариата. Наши лоты вообще не должны были попасть
                 ни на один аукцион. Потому что кому нужен дневник
                 девочки-подростка или картина, которую может нарисовать даже
                 ребёнок? Кому нужны все эти странные вещи, созданные любителями?
               </p>
-              <p class="about__text_content">
+              <p class="about__text-content">
                 Слишком сложные или, наоборот, слишком простые. Опережающие своё
                 время. В пух и прах растерзанные критиками. Непринятые и
                 непонятые. Когда-то они казались просто неудачными. Но, несмотря
@@ -163,61 +159,57 @@
           </div>
         </div>
       </section>
-      <footer class="footer">
-        <div class="footer__address">
-          <address class="address">
-            <a class="footer__address_tel" href="tel:+99995555555">
-              +9 999 555 5555
-            </a>
-            <br />
-            <a class="footer__address_mail" href="mailto:info@sobaka.ge">
-              info@sobaka.ge
-            </a>
-            <p class="footer__address_location">
-              наб. Принсенграхт 263-265,<br />
-              Амстердам
-            </p>
-          </address>
-        </div>
-        <nav class="footer__menu">
-          <ul class="footer__links-list">
-            <li class="footer__links-list-item footer__link_active">
-              <a class="footer__link">главная</a>
-            </li>
-            <li class="footer__links-list-item footer__link_active">
-              <a class="footer__link" href="#lots">посмотреть лоты</a>
-            </li>
-            <li class="footer__links-list-item footer__link_active">
-              <a class="footer__link" href="#about">об аукционе</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="footer__social-list">
-          <li class="footer__social-list-item">
-            <a class="footer__social-link" href="#0">
-              <img
-                class="footer__social-icon"
-                src="./images/yt.svg"
-                alt="YouTube"
-              />
-            </a>
+    </main>
+    <footer class="footer">
+      <address class="address">
+        <a class="address__link" href="tel:+99995555555"> +9 999 555 5555 </a>
+        <br />
+        <a class="address__link" href="mailto:info@sobaka.ge">
+          info@sobaka.ge
+        </a>
+        <p>
+          наб. Принсенграхт 263-265,<br />
+          Амстердам
+        </p>
+      </address>
+      <nav class="footer__menu">
+        <ul class="footer__links-list">
+          <li class="footer__links-list-item footer__links-list-item_active">
+            <a class="footer__link">главная</a>
           </li>
-          <li class="footer__social-list-item">
-            <a class="footer__social-link" href="#0">
-              <img class="footer__social-icon" src="./images/vk.svg" alt="VK" />
-            </a>
+          <li class="footer__links-list-item">
+            <a class="footer__link" href="#lots">посмотреть лоты</a>
           </li>
-          <li class="footer__social-list-item">
-            <a class="footer__social-link" href="#0">
-              <img
-                class="footer__social-icon"
-                src="./images/pinterest.svg"
-                alt="Pinterest"
-              />
-            </a>
+          <li class="footer__links-list-item">
+            <a class="footer__link" href="#about">об аукционе</a>
           </li>
         </ul>
-      </footer>
-    </main>
+      </nav>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" target="_blank" href="#0">
+            <img
+              class="footer__social-icon"
+              src="./images/yt.svg"
+              alt="YouTube"
+            />
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" target="_blank" href="#0">
+            <img class="footer__social-icon" src="./images/vk.svg" alt="VK" />
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" target="_blank" href="#0">
+            <img
+              class="footer__social-icon"
+              src="./images/pinterest.svg"
+              alt="Pinterest"
+            />
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
